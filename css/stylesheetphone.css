@@ -1,0 +1,117 @@
+body{
+  font-family: Josefin Sans;
+}
+
+header{
+  box-sizing: border-box;
+}
+.logo{
+  float: right;
+  padding: 5vw;
+  width: 40%;
+}
+.header_text{
+  float: left;
+  overflow: auto;
+  width: 40%;
+  max-height: 10%;
+  text-align: right;
+  padding-top: 2.5vh;
+  padding-left: 1vw;
+}
+
+.page_title{
+  font-size: 10vw;
+}
+.page_description{
+  font-size: 5vw;
+  font-weight: lighter;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.breakup{
+  clear: both;
+  height: .2vh;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  background-color: #808284;
+}
+
+
+/*
+.meet_john{
+  float: right;
+  position: relative;
+  right: -50%;
+  text-align: left;
+  width: 90%;
+}
+*/
+
+
+.meet_john{
+  display: block;
+  padding-top: 2vh;
+  margin: auto;
+  width: 95%;
+}
+
+
+.photo{
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+figcaption{
+  text-align: center;
+  padding-top: 2vh;
+  height: 3%;
+  font-size: 5vw;
+}
+
+.footer_title{
+  clear: both;
+  padding-top: 5%;
+  padding-bottom: 3%;
+  font-size: 6vw;
+  text-align: center;
+  font-weight: lighter;
+}
+.flex_container{
+  /* creating a flex container based on guide here: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+  display: flex;
+  padding: 0;
+  margin: 0;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex_child{
+  display: block;
+  width: 225px;
+  padding-bottom: 5%;
+}
+
+.gray{
+  color: #808284;
+}
+
+.red{
+  color: #e84c4c;
+}
+.img_title{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 4vw;
+}
+
+.img_text{
+  text-align: center;
+  font-weight: bold;
+  font-size: 3vw;
+}

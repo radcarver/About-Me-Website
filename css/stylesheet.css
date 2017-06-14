@@ -1,0 +1,114 @@
+body{
+  font-family: Josefin Sans;
+}
+
+header{
+  box-sizing: border-box;
+}
+.logo{
+  float: left;
+  padding: 5vh;
+  width: 10%;
+}
+.header_text{
+  float: right;
+  overflow: auto;
+  width: 30%;
+  max-height: 10%;
+  text-align: right;
+  padding-top: 2.5vh;
+  padding-right: 1vw;
+}
+
+.page_title{
+  font-size: 4vw;
+}
+.page_description{
+  font-size: 2vw;
+  font-weight: lighter;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.breakup{
+  clear: both;
+  height: .5vh;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  background-color: #808284;
+}
+
+
+/*
+.meet_john{
+  float: right;
+  position: relative;
+  right: -50%;
+  text-align: left;
+  width: 90%;
+}
+*/
+
+
+.meet_john{
+  display: block;
+  padding-top: 2vh;
+  margin: auto;
+  width: 80%;
+}
+
+
+.photo{
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+figcaption{
+  text-align: center;
+  padding-top: 2vh;
+  height: 3%;
+  font-size: 1.75vw;
+}
+
+
+.flex_container{
+  /* creating a flex container based on guide here: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+  display: flex;
+  padding: 0;
+  margin: 0;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex_child{
+  display: block;
+  width: 20%;
+}
+
+.gray{
+  color: #808284;
+}
+
+.red{
+  color: #e84c4c;
+}
+.img_title{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2.5vw;
+}
+
+.img_text{
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.75vw;
+}
+.footer_title{
+  clear: both;
+  padding-left: 6.5%;
+  font-size: 3.5vw;
+}
